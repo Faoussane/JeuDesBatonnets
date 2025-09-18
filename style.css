@@ -91,13 +91,11 @@ input{
 .active{
     display: none;
 }
-label{text-align: center; align-self:center; font-size: 1.5rem; font-weight: 800; color: #fff;}
 .notice{background-color: rgb(193, 159, 116); padding: 10px; color: #673838; font-size: 1.3rem; font-weight: 800; margin-top: 20px;border-radius: 20px; width: 100%;}
 @media (max-width: 900px) {
       h1{
         font-size: 1.3rem;
       }
-      label{display: none;}
       .notice{font-size: 1rem;}
       input{
             border-radius: 10px 0 0 10px;
