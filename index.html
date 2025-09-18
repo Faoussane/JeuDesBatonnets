@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jeu des bâtonnets</title>
     <link rel="stylesheet" href="style.css">
     <script src="./app.js" defer></script>
 </head>
@@ -11,7 +11,7 @@
     <div class="content">
         <div class="tete">
             <h1>Jeu des bâtonnets</h1>
-            <h4>Joueur</h4>
+            <h4>😎Tour du joueur 1</h4>
         </div>
         <div class="batonnets">
 
@@ -21,16 +21,24 @@
             <div class="btn">
                 <button class="btn1 bn">Je retire 1</button>
                 <button class="btn2 bn">Je retire 2</button>
-                <button class="btn3 bn">Je retire 3</button>
+                <button class="btn3 bn" >Je retire 3</button>
             </div>
         </div>
-        <div>
-            batonnets.lastElementChild → prend toujours le dernier <li> dans la liste.
-
-removeChild(...) → supprime ce dernier élément.
-
-La boucle répète l’action 3 fois.
+    </div>
+    <div class="nbrjoueurs">
+        <div style="border: #673838 solid 2px; box-shadow: 1px 2px 20px 0px;display: flex; flex-direction: column; justify-content: center; align-items: center; width: 70%; padding: 20px; border-radius: 20px;">
+            <h1 style="width: 100%; text-align: center;">Bienvenue dans le Jeu des bâtonnets</h1>
+            <form action=""> 
+                <label style="text-align: center; align-self:center; font-size: 1.5rem; font-weight: 800; color: #fff;" for="nbJoueurs">Nombre(s):</label>
+                <input type="text" id="nbJoueurs" placeholder="Entrez le nombre de Joueur (1 ou 2); Par defaut ce nombre est 1">
+                <button id="btn">Valider</button>
+            </form>
+            <div style="background-color: rgb(193, 159, 116); padding: 10px; color: #673838; font-size: 1.3rem; font-weight: 800; margin-top: 20px;border-radius: 20px; width: 100%;">
+                <p>- Si vous entrez 1 ou n'importe quel caractère, vous jouerai contre l'IA</p>
+                <p>- Si vous entrez 2, vous jouerai contre un ami en local</p>
+            </div>
         </div>
     </div>
+    
 </body>
 </html>

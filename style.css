@@ -5,6 +5,7 @@
 }
 .body{
     background-color: antiquewhite;
+    position: relative;
 }
 .tete{
     background-color: rgb(193, 159, 116);
@@ -55,4 +56,36 @@ h1{
     width: 75%;
     border-radius: 10px;
     padding: 20px;
+}
+.nbrjoueurs{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100VH;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgb(121, 109, 133);
+
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+}
+input{
+    border-radius: 10px 0 0 10px;
+    width: 90%;
+    padding-left: 20px;
+}
+#btn{
+    border-radius: 0 20px 20px 0;
+    width: 10%;
+}
+.active{
+    display: none;
 }
