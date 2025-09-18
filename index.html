@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeu des bâtonnets</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
     <script src="./app.js" defer></script>
 </head>
 <body>
@@ -26,14 +27,14 @@
         </div>
     </div>
     <div class="nbrjoueurs">
-        <div style="border: #673838 solid 2px; box-shadow: 1px 2px 20px 0px;display: flex; flex-direction: column; justify-content: center; align-items: center; width: 70%; padding: 20px; border-radius: 20px;">
+        <div style="box-shadow: 1px 2px 20px 0px;display: flex; flex-direction: column; justify-content: center; align-items: center; width: 70%; padding: 20px; border-radius: 20px;">
             <h1 style="width: 100%; text-align: center;">Bienvenue dans le Jeu des bâtonnets</h1>
             <form action=""> 
-                <label style="text-align: center; align-self:center; font-size: 1.5rem; font-weight: 800; color: #fff;" for="nbJoueurs">Nombre(s):</label>
+                <label style="" for="nbJoueurs">Nombre(s):</label>
                 <input type="text" id="nbJoueurs" placeholder="Entrez le nombre de Joueur (1 ou 2); Par defaut ce nombre est 1">
                 <button id="btn">Valider</button>
             </form>
-            <div style="background-color: rgb(193, 159, 116); padding: 10px; color: #673838; font-size: 1.3rem; font-weight: 800; margin-top: 20px;border-radius: 20px; width: 100%;">
+            <div class="notice">
                 <p>- Si vous entrez 1 ou n'importe quel caractère, vous jouerai contre l'IA</p>
                 <p>- Si vous entrez 2, vous jouerai contre un ami en local</p>
             </div>
