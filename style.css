@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: antiquewhite;
+}
+.tete{
+    background-color: rgb(193, 159, 116);
+    margin: auto;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+}
+h1{
+    background-color: #fff;
+    padding: 10px 1px;
+    border-radius: 20px;
+}
+.content{
+    text-align: center;
+    padding: 20px;
+}
+.batonnets{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    width: 75%;
+    padding: 20px;
+}
+.batonnets li{
+    height: 200px;
+    width: 17px;
+    border-radius: 20px;
+    list-style: none;
+    background-color: blueviolet;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.bn{
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+.foot{
+    background-color: rgb(193, 159, 116);
+    margin: auto;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+}
